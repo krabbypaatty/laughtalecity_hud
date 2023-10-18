@@ -1,0 +1,67 @@
+export default {
+  HealthIndicator: new ProgressBar.Circle("#HealthIndicator", {
+    trailColor: "rgb(43, 7, 7)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  ArmourIndicator: new ProgressBar.Circle("#ArmourIndicator", {
+    color: "rgb(255, 0, 0)",
+    trailColor: "rgb(43, 7, 7)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  StaminaIndicator: new ProgressBar.Circle("#StaminaIndicator", {
+    color: "rgb(110, 199, 255)",
+    trailColor: "rgb(35, 67, 87)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  HungerIndicator: new ProgressBar.Circle("#HungerIndicator", {
+    color: "rgb(255, 150, 0)",
+    trailColor: "rgb(87, 51, 1)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  ThirstIndicator: new ProgressBar.Circle("#ThirstIndicator", {
+    color: "rgba(97, 131, 255)",
+    trailColor: "rgb(38, 46, 74)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  StressIndicator: new ProgressBar.Circle("#StressIndicator", {
+    color: "rgb(255, 0, 0)",
+    trailColor: "rgb(43, 7, 7)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  OxygenIndicator: new ProgressBar.Circle("#OxygenIndicator", {
+    trailColor: "rgb(49, 56, 66)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  SpeedIndicator: new ProgressBar.Circle("#SpeedIndicator", {
+    color: "rgb(255, 255, 255)",
+    trailColor: "rgb(35, 35, 35)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  FuelIndicator: new ProgressBar.Circle("#FuelIndicator", {
+    trailColor: "rgb(35, 35, 35)",
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 600,
+  }),
+  VoiceIndicator: new ProgressBar.Circle("#VoiceIndicator", {
+    strokeWidth: 12,
+    trailWidth: 12,
+    duration: 100,
+  }),
+};
